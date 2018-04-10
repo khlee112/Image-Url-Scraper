@@ -9,10 +9,10 @@ Usage:
     node scrape.js [Query File] [Output File]
 
 Query File Format:
-    {category}\t{query}\t{scrape depth}\n
+    [category]\t[query]\t[scrape depth]\n
 
 Output File Format:
-    {category}\t{query}\t{source{google|bing}}\t{return position}\t{url}\n    
+    [category]\t[query]\t[source{google|bing}]\t[return position]\t[url]\n    
 */
 var fs = require('fs'),
     request = require('request');
